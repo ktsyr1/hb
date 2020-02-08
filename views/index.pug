@@ -1,0 +1,12 @@
+extends layout
+
+block content 
+  -  var n = 0
+  .cards
+    while n < 9
+      .card
+        img(src="images/bg2.png",id=`${n++}`, alt="", srcset="")
+        p.name اسم الكورس
+        .footer-card
+          p اسم المركز
+          p سراقب
